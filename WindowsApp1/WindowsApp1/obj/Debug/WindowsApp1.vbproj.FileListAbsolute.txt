@@ -1,0 +1,25 @@
+C:\Users\Shailesh Bansal\Desktop\VB\Abacus1\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.AssemblyReference.cache
+C:\Users\Shailesh Bansal\Desktop\VB\Abacus1\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form1.resources
+C:\Users\Shailesh Bansal\Desktop\VB\Abacus1\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+C:\Users\Shailesh Bansal\Desktop\VB\Abacus1\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
+C:\Users\Shailesh Bansal\Desktop\VB\Abacus1\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+C:\Users\Shailesh Bansal\Desktop\VB\Abacus1\WindowsApp1\WindowsApp1\bin\Debug\AbacusPractice.exe.config
+C:\Users\Shailesh Bansal\Desktop\VB\Abacus1\WindowsApp1\WindowsApp1\bin\Debug\AbacusPractice.exe
+C:\Users\Shailesh Bansal\Desktop\VB\Abacus1\WindowsApp1\WindowsApp1\bin\Debug\AbacusPractice.pdb
+C:\Users\Shailesh Bansal\Desktop\VB\Abacus1\WindowsApp1\WindowsApp1\bin\Debug\AbacusPractice.xml
+C:\Users\Shailesh Bansal\Desktop\VB\Abacus1\WindowsApp1\WindowsApp1\obj\Debug\AbacusPractice.exe
+C:\Users\Shailesh Bansal\Desktop\VB\Abacus1\WindowsApp1\WindowsApp1\obj\Debug\AbacusPractice.xml
+C:\Users\Shailesh Bansal\Desktop\VB\Abacus1\WindowsApp1\WindowsApp1\obj\Debug\AbacusPractice.pdb
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\bin\Debug\AbacusPractice.exe.config
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\bin\Debug\AbacusPractice.exe
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\bin\Debug\AbacusPractice.pdb
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\bin\Debug\AbacusPractice.xml
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.AssemblyReference.cache
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.SuggestedBindingRedirects.cache
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form1.resources
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\AbacusPractice.exe
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\AbacusPractice.xml
+D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\AbacusPractice.pdb
