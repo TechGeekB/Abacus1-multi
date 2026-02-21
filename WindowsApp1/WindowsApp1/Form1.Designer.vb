@@ -28,6 +28,7 @@ Partial Class Form1
         Me.AdditionRadio = New System.Windows.Forms.RadioButton()
         Me.SubtractionRadio = New System.Windows.Forms.RadioButton()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.divisionRadio = New System.Windows.Forms.RadioButton()
         Me.multiRadio = New System.Windows.Forms.RadioButton()
         Me.operatorLabel = New System.Windows.Forms.Label()
         Me.operand1Txt = New System.Windows.Forms.TextBox()
@@ -52,7 +53,6 @@ Partial Class Form1
         Me.questionNumberTxt = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.resetBtn = New System.Windows.Forms.Button()
-        Me.divisionRadio = New System.Windows.Forms.RadioButton()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -106,6 +106,17 @@ Partial Class Form1
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "What you want to practice?"
+        '
+        'divisionRadio
+        '
+        Me.divisionRadio.AutoSize = True
+        Me.divisionRadio.Location = New System.Drawing.Point(257, 38)
+        Me.divisionRadio.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.divisionRadio.Name = "divisionRadio"
+        Me.divisionRadio.Size = New System.Drawing.Size(45, 33)
+        Me.divisionRadio.TabIndex = 4
+        Me.divisionRadio.Text = "/"
+        Me.divisionRadio.UseVisualStyleBackColor = True
         '
         'multiRadio
         '
@@ -354,17 +365,6 @@ Partial Class Form1
         Me.resetBtn.TabIndex = 24
         Me.resetBtn.Text = "Reset"
         Me.resetBtn.UseVisualStyleBackColor = True
-        '
-        'divisionRadio
-        '
-        Me.divisionRadio.AutoSize = True
-        Me.divisionRadio.Location = New System.Drawing.Point(257, 38)
-        Me.divisionRadio.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.divisionRadio.Name = "divisionRadio"
-        Me.divisionRadio.Size = New System.Drawing.Size(45, 33)
-        Me.divisionRadio.TabIndex = 4
-        Me.divisionRadio.Text = "/"
-        Me.divisionRadio.UseVisualStyleBackColor = True
         '
         'Form1
         '

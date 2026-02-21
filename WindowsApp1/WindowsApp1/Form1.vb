@@ -1,4 +1,6 @@
-﻿Public Class Form1
+﻿
+
+Public Class Form1
     'Store current state in these variable
     Dim questionNumber As Integer = 0
     Dim operandChecked
@@ -13,6 +15,10 @@
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Randomize()
+        ' Using System.Globalization;
+        'CultureInfo ci = New CultureInfo("en-US"); //e.g. "en-US"
+        'Thread.CurrentThread.CurrentCulture = ci;
+        'Thread.CurrentThread.CurrentUICulture = ci;
     End Sub
 
 
@@ -142,9 +148,16 @@
         If e.KeyChar = Convert.ToChar(13) Then
             saveCurrentQuestionState()
             displayQuestion()
-        ElseIf Asc(e.KeyChar) <> 8 Then
-            If Asc(e.KeyChar) < 48 Or Asc(e.KeyChar) > 57 Then
-                e.Handled = True
+        ElseIf Asc(e.KeyChar) <> 8 Then '8=backspace
+            If Asc(e.KeyChar) = 46 Then  '46 is decimal
+                'check if there is already decimal then ignore this decimal
+                If (InStr(1, resultTxt.Text, ".", CompareMethod.Text) < 1) Then
+                    e.KeyChar = "."
+                Else e.KeyChar = "" 'ignore it
+                End If
+
+            ElseIf ((Asc(e.KeyChar) < 48 Or Asc(e.KeyChar) > 57)) Then '48 to 57 are numbers. 
+                    e.Handled = True
             End If
         End If
     End Sub
@@ -197,12 +210,16 @@
 
         'Dim expression As String = operand1Txt.Text + operandChecked + operand2Txt.Text
         Dim expression As String = operand1Txt.Text + operatorLabel.Text + operand2Txt.Text
+        Console.WriteLine("expression formed :" + expression)
         'MsgBox("expression getting evaluated:" + expression)
         'MsgBox((New DataTable().Compute(expression, Nothing)))
+        'Debug.WriteLine((New DataTable().Compute(expression, Nothing)))
         Dim evaluatedResult As Double = New DataTable().Compute(expression, Nothing)
+        Debug.WriteLine("expression evaluated :" + evaluatedResult.ToString)
         'MsgBox("evaluated result:" + evaluatedResult)
-        Dim resultFromInput As Double = If((Int32.TryParse(resultTxt.Text, 0) = True), resultTxt.Text, "0")
-        currentQuestion.isCorrect = evaluatedResult = resultFromInput
+        Dim inputtedAnswer As Double = If((Int32.TryParse(resultTxt.Text, 0) = True), resultTxt.Text, "0")
+        Debug.WriteLine("inputResult: " + inputtedAnswer.ToString)
+        currentQuestion.isCorrect = evaluatedResult = inputtedAnswer
         'MsgBox("iscorrect: " + currentQuestion.isCorrect)
         'MsgBox(Convert.ToInt32(Convert.ToDecimal(resultTxt.Text)))
         'MsgBox(evaluatedResult == resultTxt.Text)
@@ -256,5 +273,13 @@
     Private Sub divisionRadio_CheckedChanged(sender As Object, e As EventArgs) Handles divisionRadio.CheckedChanged
         operatorLabel.Text = divisionRadio.Text
         operandChecked = divisionRadio.Text
+    End Sub
+
+    Private Sub operand2Txt_TextChanged(sender As Object, e As EventArgs) Handles operand2Txt.TextChanged
+
+    End Sub
+
+    Private Sub resultTxt_TextChanged(sender As Object, e As EventArgs) Handles resultTxt.TextChanged
+
     End Sub
 End Class

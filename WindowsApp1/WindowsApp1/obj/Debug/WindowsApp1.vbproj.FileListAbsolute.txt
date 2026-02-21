@@ -23,3 +23,16 @@ D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCom
 D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\AbacusPractice.exe
 D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\AbacusPractice.xml
 D:\VB\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\AbacusPractice.pdb
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\bin\Debug\AbacusPractice.exe.config
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\bin\Debug\AbacusPractice.exe
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\bin\Debug\AbacusPractice.pdb
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\bin\Debug\AbacusPractice.xml
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.AssemblyReference.cache
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.SuggestedBindingRedirects.cache
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form1.resources
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\AbacusPractice.exe
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\AbacusPractice.xml
+D:\code-repository\Abacus1-multi\WindowsApp1\WindowsApp1\obj\Debug\AbacusPractice.pdb
